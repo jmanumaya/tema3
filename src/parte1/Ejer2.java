@@ -22,7 +22,7 @@ public class Ejer2 {
 		for (int i = 0; i < numbers.length; i++) {
 			
 			// Le pido al usuario un número.
-			System.out.println("Número: ");
+			System.out.print("Número: ");
 			num = sc.nextDouble();
 			
 			// Voy asignando a cada posición del array numbers el número que asigna el usuario.
