@@ -45,7 +45,7 @@ public class Ejer2 {
 		// Imprimo la nota mínima, máxima y la nota media.
 		for (int i = 0; i < notas.length;i++) {
 			System.out.println("La nota mínima del Alumno " + (i + 1) +": " + notas[i][0]);
-			System.out.println("La nota máxima del Alumno " + (i + 1) +": " + notas[i][notas.length]);
+			System.out.println("La nota máxima del Alumno " + (i + 1) +": " + notas[i][notas[i].length - 1]);
 				
 				// for para imprimir la nota media.
 		        for (int j = 0; j < notas[i].length; j++) {
