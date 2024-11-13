@@ -18,7 +18,7 @@ public class Ejer1 {
 		tablero[2][3] = 9;
 		tablero[2][5] = 11;
 		
-		// For para imprimir el tablero.
+		// For para imprimir el tablero
 		for (int i= 0; i < tablero.length; i++) {
 			for (int j = 0; j < tablero[0].length; j++) {
 				System.out.print(tablero [i][j] + "|");

@@ -61,7 +61,7 @@ public class Ejer2 {
 		    media = 0;
 		}
 		
-		// Cierro uso de escaner.
+		// Cierro uso de escaner
 		sc.close();
 	}
 }
