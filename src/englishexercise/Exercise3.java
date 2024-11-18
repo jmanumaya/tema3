@@ -11,7 +11,7 @@ public class Exercise3 {
 		// Variable to store the position of the fly
 		int position;
 
-		// User's input to guess the number
+		// User's input to guess the number.
 		int guess = 0;
 
 		// Boolean that will stay true until the game ends
