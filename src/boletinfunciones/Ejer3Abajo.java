@@ -46,7 +46,7 @@ public class Ejer3Abajo {
 		// Variable que almacenará la respuesta obtenida de la función.
 		boolean respuesta;
 		
-		// PARA COMPROBAR EL RESULTADO, DESCOMENTA UNA TABLA Y COMENTA LA OTRA (Ctrl + Shift + /).
+		// PARA COMPROBAR EL RESULTADO, DESCOMENTA UNA TABLA Y COMENTA LA OTRA (Ctrl + Shift + 7).
 		
 		// Tabla con valores simétricos.
 		int tabla[][] = {
