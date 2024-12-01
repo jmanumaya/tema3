@@ -25,11 +25,11 @@ public class Ejer5Abajo {
 
     public static void main(String[] args) {
     	// Creo el escaner.
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         // Pido al usuario el tamaño de la matriz.
         System.out.print("Introduce el tamaño de la matriz NxN (N): ");
-        int n = scanner.nextInt();
+        int n = sc.nextInt();
 
         // Creo la matriz
         int[][] tabla = new int[n][n];
@@ -39,7 +39,7 @@ public class Ejer5Abajo {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 System.out.print("Elemento [" + i + "][" + j + "]: ");
-                tabla[i][j] = scanner.nextInt();
+                tabla[i][j] = sc.nextInt();
             }
         }
 
@@ -65,7 +65,7 @@ public class Ejer5Abajo {
         }
         
         // Cierro uso de escáner.
-        scanner.close(); 
+        sc.close(); 
     }
 }
 
