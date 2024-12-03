@@ -9,15 +9,17 @@ public class Ejer2 {
         Random rd = new Random();
         // Variable que usaré para guardar valores temporalmente.
         int temp;
+        
+        // Variable que alojará un índice aleatorio.
+        int j;
 
         // Recorro la tabla desde el inicio.
         for (int i = 0; i < tabla.length; i++) {
         	
             // Genero un índice aleatorio entre 0 y la longitud total.
-            int j = rd.nextInt(tabla.length);
+            j = rd.nextInt(tabla.length);
 
             // Intercambio tabla[i] con tabla[j].
-            
             // Guardo en temp el valor de tabla[i]
             temp = tabla[i];
             
